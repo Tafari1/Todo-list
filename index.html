@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List</title>
+  </head>
+  <body>
+    <main>
+      <!--droppable will be the container-->
+      <div id="Container">
+        <h2>My To Do List</h2>
+        <div id="elementsContainer" draggable="true">
+          <input type="text" placeholder="Enter a Task" id="taskField" /><button
+            id="btnAdd"
+          >
+            +
+          </button>
+          <div id="div-item-ul" draggable="true">
+            <ul id="ulEL" draggable="true"></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>

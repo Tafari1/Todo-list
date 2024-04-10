@@ -1,0 +1,98 @@
+body {
+  position: relative;
+  margin: 0;
+  background: linear-gradient(
+    darkgrey,
+    rgb(88, 161, 230),
+    rgb(35, 243, 146),
+    rgb(255, 184, 196),
+    rgb(224, 153, 61)
+  );
+}
+
+body h2 {
+  color: rgb(224, 153, 61);
+}
+
+#Container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border: snow 5px solid;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  height: 430px;
+}
+
+ul {
+  list-style: none;
+  color: rgb(24, 24, 72);
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 35px;
+  font-family: "Courier New", Courier, monospace;
+}
+li {
+  margin-left: 1px;
+  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 6px;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+/*Targets the checkbox within the ul li*/
+input[type="checkbox"] {
+  position: relative;
+  margin-right: 200px;
+  margin-bottom: auto;
+}
+
+#btnAdd {
+  background-color: rgb(35, 243, 146);
+  color: aliceblue;
+  padding: 5px;
+  width: 40px;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#btnAdd:hover {
+  background-color: rgb(191, 31, 186);
+}
+
+#taskField {
+  height: 35px;
+  background-color: rgb(24, 24, 72);
+
+  color: bisque;
+  border: none;
+}
+
+/*targets the delete button*/
+#btnDelete {
+  margin-left: 25px;
+  margin-bottom: 8px;
+  border: none;
+  padding: 7px;
+  background-color: rgb(234, 232, 232);
+  cursor: pointer;
+}
+
+#btnDelete:hover {
+  background-color: red;
+}
